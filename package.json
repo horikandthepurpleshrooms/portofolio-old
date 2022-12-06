@@ -2,6 +2,7 @@
   "name": "purple-shrooms",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://horiksan.github.io/purple-shrooms",
   "dependencies": {
     "@chakra-ui/react": "^2.4.3",
     "@emotion/react": "^11.0.0",
