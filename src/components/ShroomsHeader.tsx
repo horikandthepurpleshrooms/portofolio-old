@@ -5,7 +5,7 @@ import { ColorModeSwitcher } from "./ColorModeSwitcher"
 const ShroomsHeader = () => {
   return (
     <Box display={"flex"} justifyContent={"center"} alignItems={"center"} p={2} borderWidth={2} borderColor={useColorModeValue("black", "white")}>
-      <Text letterSpacing={20} fontSize={22}>COLLECTION OF (JUNKIE) DIGITAL CREATIONS</Text>
+      <Text letterSpacing={20} fontSize={"1rem"}>COLLECTION OF (JUNKIE) DIGITAL CREATIONS</Text>
       <ColorModeSwitcher />
     </Box>
   )

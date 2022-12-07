@@ -9,7 +9,7 @@ const LandingPage = () => {
   return (
     <Box textAlign="center" fontSize="xl" m={10} pb={100}>
       <ShroomsHeader />
-      <Text display={"flex"} justifyContent={"center"} fontSize={88}>⚠️WIPWIPWIPWIPWIPWIPWIPWIP⚠️</Text>
+      <Text display={"flex"} justifyContent={"center"} fontSize={"3.5rem"}>⚠️WIPWIPWIPWIPWIPWIPWIPWIP⚠️</Text>
       <AboutCard />
     </Box>
   )
