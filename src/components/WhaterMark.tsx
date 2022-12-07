@@ -1,9 +1,9 @@
 import React from 'react'
-import { Box, Text } from "@chakra-ui/react"
+import { Box, Text, useColorModeValue } from "@chakra-ui/react"
 
 function WhaterMark() {
   return (
-    <Box mt={4} display={"flex"} flexDirection={"row"} height={24} maxWidth={280} borderStyle={"dashed"} borderColor={"black"} borderWidth={2}>
+    <Box mt={4} display={"flex"} flexDirection={"row"} height={24} maxWidth={280} borderStyle={"dashed"} borderWidth={2} borderColor={useColorModeValue("black", "white")} borderRadius={20}>
       <Box flex={1} display={"flex"} alignItems={"flex-end"} flexDir={"column"} justifyContent={"center"} px={2}>
         <Text fontSize={14} textAlign={"end"}>All the works</Text>
         <Text fontSize={14} textAlign={"end"}>design by</Text>

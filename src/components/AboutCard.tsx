@@ -1,13 +1,10 @@
 import React from 'react'
-import { Box, Text } from "@chakra-ui/react"
+import { Box } from "@chakra-ui/react"
 import WhaterMark from "./WhaterMark"
 
 const AboutCard = () => {
   return (
-    <Box borderWidth={2} borderColor={"black"}>
-      <Text>
-        test
-      </Text>
+    <Box>
       <WhaterMark />
     </Box>
   )
