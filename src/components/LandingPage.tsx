@@ -11,7 +11,15 @@ const LandingPage = () => {
     <Box textAlign="center" fontSize="xl" m={10} pb={100}>
       <ShroomsHeader />
       <Text display={"flex"} justifyContent={"center"} fontSize={"3.5rem"}>{`U+fe0f WIPWIPWIPWIPWIPWIPWIPWIP U+fe0f`}</Text>
-      <Bedge />
+      <Box display={"flex"} flexDirection={"row"}>
+
+        <Box display={"flex"} flex={1}></Box>
+
+        <Bedge />
+
+        <Box display={"flex"} flex={1}></Box>
+
+      </Box>
       <AboutCard />
     </Box>
   )
