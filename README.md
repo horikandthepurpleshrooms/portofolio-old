@@ -1,1 +1,0 @@
-# Horik Studio
