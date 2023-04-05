@@ -1,6 +1,5 @@
-import * as React from "react"
 import {
-  Box, Heading,
+  Box, Heading
 } from "@chakra-ui/react"
 import useWindowDimensions from "../hooks/useWindowDimensions"
 
