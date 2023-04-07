@@ -2,10 +2,12 @@ import {
   ChakraProvider,
   theme
 } from "@chakra-ui/react"
-import LandingPage from "./components/LandingPage"
+import LandingPage from "./pages/LandingPage"
+import WipPage from './pages/WipPage'
 
 export const App = () => {
+  const isWip = true
   return <ChakraProvider theme={theme}>
-    <LandingPage />
+    {isWip ? <WipPage /> : <LandingPage />}
   </ChakraProvider>
 }
