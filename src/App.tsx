@@ -6,8 +6,8 @@ import LandingPage from "./pages/LandingPage"
 import WipPage from './pages/WipPage'
 
 export const App = () => {
-  const isWip = true
+  const isProd = process.env.NODE_ENV === "production"
   return <ChakraProvider theme={theme}>
-    {isWip ? <WipPage /> : <LandingPage />}
+    {isProd ? <WipPage /> : <LandingPage />}
   </ChakraProvider>
 }
