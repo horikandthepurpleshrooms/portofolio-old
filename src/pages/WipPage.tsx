@@ -7,7 +7,7 @@ export default function WipPage() {
   const [text, setText] = useState<string>("thanks for dreaming")
 
   const changeText = () => {
-    if (text == "thanks for dreaming") setText("page under construction")
+    if (text === "thanks for dreaming") setText("page under construction")
     else setText("thanks for dreaming")
   }
   return (
